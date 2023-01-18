@@ -29,9 +29,9 @@ class StripeController extends Controller
     			"amount"=>50*100,
     			"currency"=>"usd",
 				"customer" => $customer->id,
-    			"description"=>"Stripe Payment Test Done By Creatu",
+    			"description"=>"Stripe Payment Test Done By RB",
 				'shipping' => [
-					'name' => 'Creatu',
+					'name' => 'RBS',
 					'address' => [
 					  'line1' => ' tinkune road',
 					  'postal_code' => '44200',
